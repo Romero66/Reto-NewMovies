@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/styleForm.css">
+    <title>Peliculas Para Ti</title>
+</head>
+<body>
+    <div class="contain">
+        <header class="menuPrincipal">
+            <div>
+                <nav>
+                    <ul class="menu">
+                        <li class="lista"><a href="index.html">Inicio</a></li>
+                        <li class="lista"><a href="formulario.html">Registro</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+
+        </section>
+        <br>
+
+        <!-- Apartado para formulario -->
+        <center>
+          <main class="main-container" id="main-container">
+            <div class="form-container">
+              <div>
+                <h3>Formulario de registro</h3>
+              </div>
+              <form class="register-form">
+                <table class="form-table">
+                  <tr class="table-row">
+                    <td class="table-data"><label class="form-label" for="name">Nombre:</label>
+                    <td class="table-data"><input class="simple-text-box" type="text" name="name" id="name"></td>
+                    </td>
+                   
+                  </tr>
+                  <tr class="table-row">
+                    <td class="table-data"><label class="form-label" for="last-name">Apellido:</label></td>
+                    <td class="table-data"><input class="simple-text-box" type="text" name="last-name" id="last-name"></td>
+                  </tr>
+                 
+                  <tr class="table-row">
+                    <td class="table-data"><label class="form-label" for="tel">Teléfono:</label></td>
+                    <td class="table-data"><input class="simple-text-box" type="tel" name="tel" id="tel"></td>
+                  </tr>
+                  <tr class="table-row">
+                    <td class="table-data"><label class="form-label" for="email">Email:</label></td>
+                    <td class="table-data"><input class="simple-text-box" type="email" name="email" id="email"></td>
+                  </tr>
+                  <tr class="table-row">
+                    <td class="table-data"><label class="form-label" for="address">Dirección:</label></td>
+                    <td class="table-data"><input class="simple-text-box" type="text" name="address" id="address"></td>
+                  </tr>
+                  <tr class="table-row">
+                    <td class="table-data"><label class="form-label" for="observations">Observaciones:</label></td>
+                    <td class="table-data">
+                      <br>
+                      <textarea class="simple-text-box big-text-box" name="observations" id="observations" cols="30" rows="10">
+                      </textarea>
+                    </td>
+                  </tr>
+                </table>
+                <div class="send-button-container">
+                  <input style="background-color: rgb(117, 186, 243); color: white; width: 100px; height: 40px;" class="send-button" 
+                  type="button" value="Enviar">
+                </div>
+              </form>
+            </div>
+          </main>
+  
+        </center> 
+
+  <script src="./script/script.js"></script>
+  
+</body>
+</html>
